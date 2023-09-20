@@ -48,7 +48,7 @@ public class VisitServiceImpl implements VisitService {
 		try {
 			visit = visitRepository.findById(visitId);
 		} catch (ObjectRetrievalFailureException|EmptyResultDataAccessException e) {
-		// just ignore not found exceptions for Jdbc/Jpa realization
+			// just ignore not found exceptions for Jdbc/Jpa realization
 			return null;
 		}
 		return visit;
