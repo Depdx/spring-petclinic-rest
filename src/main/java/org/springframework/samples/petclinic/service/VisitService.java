@@ -27,7 +27,6 @@ import org.springframework.samples.petclinic.model.Visit;
  * @author Nicolas Depelteau
  */
 public interface VisitService {
-
 	Collection<Visit> findVisitsByPetId(int petId);
 	Visit findVisitById(int visitId) throws DataAccessException;
 	Collection<Visit> findAllVisits() throws DataAccessException;
