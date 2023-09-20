@@ -59,6 +59,7 @@ public class CallMonitoringAspect {
         this.callCount = 0;
         this.accumulatedCallTime = 0;
     }
+    
 
     @ManagedAttribute
     public int getCallCount() {
