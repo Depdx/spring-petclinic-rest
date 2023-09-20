@@ -70,7 +70,6 @@ public class VisitServiceImpl implements VisitService {
 	@Transactional
 	public void saveVisit(Visit visit) throws DataAccessException {
 		visitRepository.save(visit);
-
 	}
 
 	@Override
