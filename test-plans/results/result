@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1697755916936,2,/api/vets,Non HTTP response code: java.io.IOException,"Non HTTP response message: Unable to tunnel through proxy. Proxy returns ""HTTP/1.1 400""",Thread Group 1-1,false,,1265,1,1,0,1,1,LAPTOP-Nicolas
+1697755935236,3,/api/vets,Non HTTP response code: java.io.IOException,"Non HTTP response message: Unable to tunnel through proxy. Proxy returns ""HTTP/1.1 400""",Thread Group 1-1,false,,1265,1,1,0,1,1,LAPTOP-Nicolas
