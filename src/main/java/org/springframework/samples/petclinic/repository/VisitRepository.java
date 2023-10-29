@@ -18,6 +18,9 @@ package org.springframework.samples.petclinic.repository;
 import java.util.Collection;
 import java.util.List;
 
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DataAccessException;
 import org.springframework.samples.petclinic.model.BaseEntity;
 import org.springframework.samples.petclinic.model.Visit;
@@ -40,14 +43,19 @@ public interface VisitRepository {
      * @param visit the <code>Visit</code> to save
      * @see BaseEntity#isNew
      */
+    @CachePut(value = "visits", key = "#visit.id")
     void save(Visit visit) throws DataAccessException;
 
+    @Cacheable(value = "visits", key = "#petId")
     List<Visit> findByPetId(Integer petId);
-    
+
+    @Cacheable(value = "visits", key = "#id")
 	Visit findById(int id) throws DataAccessException;
-	
+
+    @Cacheable(value = "visits")
 	Collection<Visit> findAll() throws DataAccessException;
 
+    @CacheEvict(value = "visits", key = "#visit.id")
 	void delete(Visit visit) throws DataAccessException;
 
 }

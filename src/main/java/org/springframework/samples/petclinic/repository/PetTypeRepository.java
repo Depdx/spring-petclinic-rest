@@ -18,6 +18,9 @@ package org.springframework.samples.petclinic.repository;
 
 import java.util.Collection;
 
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DataAccessException;
 import org.springframework.samples.petclinic.model.PetType;
 
@@ -27,13 +30,17 @@ import org.springframework.samples.petclinic.model.PetType;
  */
 
 public interface PetTypeRepository {
-	
+
+    @Cacheable(value = "pet_types")
 	PetType findById(int id) throws DataAccessException;
-	
+
+    @Cacheable(value = "pet_types")
 	Collection<PetType> findAll() throws DataAccessException;
 
+    @CachePut(value = "pet_types", key = "#petType.id")
 	void save(PetType petType) throws DataAccessException;
-	
+
+    @CacheEvict(value = "pet_types")
 	void delete(PetType petType) throws DataAccessException;
 
 }

@@ -17,6 +17,9 @@ package org.springframework.samples.petclinic.repository;
 
 import java.util.Collection;
 
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DataAccessException;
 import org.springframework.samples.petclinic.model.BaseEntity;
 import org.springframework.samples.petclinic.model.Owner;
@@ -41,6 +44,7 @@ public interface OwnerRepository {
      * @return a <code>Collection</code> of matching <code>Owner</code>s (or an empty <code>Collection</code> if none
      * found)
      */
+    @Cacheable(value = "owners", key = "#lastName")
     Collection<Owner> findByLastName(String lastName) throws DataAccessException;
 
     /**
@@ -50,6 +54,7 @@ public interface OwnerRepository {
      * @return the <code>Owner</code> if found
      * @throws org.springframework.dao.DataRetrievalFailureException if not found
      */
+    @Cacheable(value = "owners", key = "#id")
     Owner findById(int id) throws DataAccessException;
 
 
@@ -59,22 +64,25 @@ public interface OwnerRepository {
      * @param owner the <code>Owner</code> to save
      * @see BaseEntity#isNew
      */
+    @CachePut(value = "owners", key = "#owner.id")
     void save(Owner owner) throws DataAccessException;
-    
+
     /**
-     * Retrieve <code>Owner</code>s from the data store, returning all owners 
+     * Retrieve <code>Owner</code>s from the data store, returning all owners
      *
      * @return a <code>Collection</code> of <code>Owner</code>s (or an empty <code>Collection</code> if none
      * found)
      */
+    @Cacheable(value = "owners")
 	Collection<Owner> findAll() throws DataAccessException;
-	
+
     /**
      * Delete an <code>Owner</code> to the data store by <code>Owner</code>.
      *
      * @param owner the <code>Owner</code> to delete
-     * 
+     *
      */
+    @CacheEvict(value = "owners", key = "#owner.id")
 	void delete(Owner owner) throws DataAccessException;
 
 
