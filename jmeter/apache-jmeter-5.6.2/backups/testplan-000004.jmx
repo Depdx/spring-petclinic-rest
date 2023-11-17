@@ -27,7 +27,7 @@
         <stringProp name="HTTPSampler.domain">localhost</stringProp>
         <stringProp name="HTTPSampler.port">9966</stringProp>
         <stringProp name="HTTPSampler.path">/petclinic/api/</stringProp>
-        <stringProp name="HTTPSampler.ipSource">localhost:9966</stringProp>
+        <stringProp name="HTTPSampler.ipSource">localhost</stringProp>
         <intProp name="HTTPSampler.ipSourceType">0</intProp>
         <stringProp name="HTTPSampler.proxyScheme">http</stringProp>
         <stringProp name="HTTPSampler.proxyHost">localhost</stringProp>
@@ -78,11 +78,7 @@
           <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
           <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
           <boolProp name="HTTPSampler.md5">false</boolProp>
-          <stringProp name="HTTPSampler.ipSource">localhost:9966</stringProp>
           <intProp name="HTTPSampler.ipSourceType">0</intProp>
-          <stringProp name="HTTPSampler.proxyScheme">http</stringProp>
-          <stringProp name="HTTPSampler.proxyHost">localhost</stringProp>
-          <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /pettypes/{petTypeId}" enabled="true">

@@ -1,757 +1,256 @@
-2023-10-29 10:27:51,039 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2023-10-29 10:27:51,066 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2023-10-29 10:27:51,067 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: Version 5.6.2
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: java.version=17.0.8.1
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: os.name=Windows 11
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: os.arch=amd64
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: os.version=10.0
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: file.encoding=Cp1252
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: java.awt.headless=null
-2023-10-29 10:27:51,077 INFO o.a.j.JMeter: Max memory     =6442450944
-2023-10-29 10:27:51,078 INFO o.a.j.JMeter: Available Processors =16
-2023-10-29 10:27:51,090 INFO o.a.j.JMeter: Default Locale=English (EN)
-2023-10-29 10:27:51,091 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2023-10-29 10:27:51,091 INFO o.a.j.JMeter: JMeterHome=C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2
-2023-10-29 10:27:51,091 INFO o.a.j.JMeter: user.dir  =C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin
-2023-10-29 10:27:51,092 INFO o.a.j.JMeter: PWD       =C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin
-2023-10-29 10:27:51,095 INFO o.a.j.JMeter: IP: 192.168.2.16 Name: LAPTOP-Nicolas FullName: LAPTOP-Nicolas.home
-2023-10-29 10:27:51,117 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2023-10-29 10:27:51,453 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2023-10-29 10:28:09,162 INFO o.a.j.s.FileServer: Default base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin'
-2023-10-29 10:28:09,166 INFO o.a.j.g.a.Load: Loading file: C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans\testplan.jmx
-2023-10-29 10:28:09,167 INFO o.a.j.s.FileServer: Set new base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans'
-2023-10-29 10:28:09,458 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2023-10-29 10:28:09,488 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2023-10-29 10:28:09,490 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2023-10-29 10:28:09,492 INFO o.a.j.s.SaveService: Loading file: C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans\testplan.jmx
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2023-10-29 10:28:09,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2023-10-29 10:28:10,504 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2023-10-29 10:28:10,505 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2023-10-29 10:28:10,505 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2023-10-29 10:28:10,505 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2023-10-29 10:28:10,918 INFO o.a.j.s.FileServer: Set new base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans'
-2023-10-29 10:35:16,633 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2023-10-29 10:35:16,635 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2023-10-29 10:35:16,635 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2023-10-29 10:35:16,637 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2023-10-29 10:35:16,637 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2023-10-29 10:35:16,739 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2023-10-29 10:35:16,796 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
-2023-10-29 10:35:16,797 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
-2023-10-29 10:35:16,797 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2023-10-29 10:35:16,797 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
-2023-10-29 10:35:16,803 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
-2023-10-29 10:35:16,812 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2023-10-29 10:35:16,812 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Average load
-2023-10-29 10:35:16,812 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group Average load.
-2023-10-29 10:35:16,812 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2023-10-29 10:35:16,812 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=30 ramp-up=1 delayedStart=false
-2023-10-29 10:35:16,821 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-1
-2023-10-29 10:35:16,840 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-Nicolas
-2023-10-29 10:35:16,849 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-2
-2023-10-29 10:35:16,854 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2023-10-29 10:35:16,854 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Increased load
-2023-10-29 10:35:16,855 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Increased load.
-2023-10-29 10:35:16,855 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2023-10-29 10:35:16,855 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=50 ramp-up=1 delayedStart=false
-2023-10-29 10:35:16,859 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-1
-2023-10-29 10:35:16,880 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-2
-2023-10-29 10:35:16,883 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-3
-2023-10-29 10:35:16,885 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2023-10-29 10:35:16,899 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-3
-2023-10-29 10:35:16,904 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
-2023-10-29 10:35:16,916 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-4
-2023-10-29 10:35:16,919 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2023-10-29 10:35:16,920 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Exceptional load
-2023-10-29 10:35:16,920 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Exceptional load.
-2023-10-29 10:35:16,920 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2023-10-29 10:35:16,920 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-4
-2023-10-29 10:35:16,920 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=100 ramp-up=1 delayedStart=false
-2023-10-29 10:35:16,923 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-1
-2023-10-29 10:35:16,933 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-2
-2023-10-29 10:35:16,938 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-5
-2023-10-29 10:35:16,943 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-3
-2023-10-29 10:35:16,949 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-5
-2023-10-29 10:35:16,954 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-4
-2023-10-29 10:35:16,959 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-6
-2023-10-29 10:35:16,963 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-5
-2023-10-29 10:35:16,975 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-6
-2023-10-29 10:35:16,979 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-7
-2023-10-29 10:35:16,983 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-6
-2023-10-29 10:35:16,985 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-7
-2023-10-29 10:35:16,994 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-8
-2023-10-29 10:35:16,999 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-8
-2023-10-29 10:35:17,002 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
-2023-10-29 10:35:17,004 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-9
-2023-10-29 10:35:17,014 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-10
-2023-10-29 10:35:17,015 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-7
-2023-10-29 10:35:17,018 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-9
-2023-10-29 10:35:17,023 INFO o.a.j.t.ThreadGroup: Started thread group number 4
-2023-10-29 10:35:17,023 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2023-10-29 10:35:17,025 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-11
-2023-10-29 10:35:17,033 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-12
-2023-10-29 10:35:17,039 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-10
-2023-10-29 10:35:17,043 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-13
-2023-10-29 10:35:17,048 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-8
-2023-10-29 10:35:17,054 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-14
-2023-10-29 10:35:17,058 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-11
-2023-10-29 10:35:17,064 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-15
-2023-10-29 10:35:17,074 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-16
-2023-10-29 10:35:17,079 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-12
-2023-10-29 10:35:17,082 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-9
-2023-10-29 10:35:17,085 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-17
-2023-10-29 10:35:17,094 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-18
-2023-10-29 10:35:17,098 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-13
-2023-10-29 10:35:17,103 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
-2023-10-29 10:35:17,104 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-19
-2023-10-29 10:35:17,114 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-20
-2023-10-29 10:35:17,115 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-10
-2023-10-29 10:35:17,118 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-14
-2023-10-29 10:35:17,124 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-21
-2023-10-29 10:35:17,134 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-22
-2023-10-29 10:35:17,138 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-15
-2023-10-29 10:35:17,143 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-23
-2023-10-29 10:35:17,146 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-11
-2023-10-29 10:35:17,153 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-24
-2023-10-29 10:35:17,159 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-16
-2023-10-29 10:35:17,164 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-25
-2023-10-29 10:35:17,175 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-26
-2023-10-29 10:35:17,179 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-17
-2023-10-29 10:35:17,180 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-12
-2023-10-29 10:35:17,186 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-27
-2023-10-29 10:35:17,195 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-28
-2023-10-29 10:35:17,199 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-18
-2023-10-29 10:35:17,203 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
-2023-10-29 10:35:17,204 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-29
-2023-10-29 10:35:17,213 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-13
-2023-10-29 10:35:17,214 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-30
-2023-10-29 10:35:17,219 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-19
-2023-10-29 10:35:17,223 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-31
-2023-10-29 10:35:17,233 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-32
-2023-10-29 10:35:17,238 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-20
-2023-10-29 10:35:17,244 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-33
-2023-10-29 10:35:17,246 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-14
-2023-10-29 10:35:17,255 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-34
-2023-10-29 10:35:17,259 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-21
-2023-10-29 10:35:17,264 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-35
-2023-10-29 10:35:17,274 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-36
-2023-10-29 10:35:17,278 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-15
-2023-10-29 10:35:17,280 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-22
-2023-10-29 10:35:17,286 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-37
-2023-10-29 10:35:17,293 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-38
-2023-10-29 10:35:17,299 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-23
-2023-10-29 10:35:17,301 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
-2023-10-29 10:35:17,303 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-39
-2023-10-29 10:35:17,311 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-16
-2023-10-29 10:35:17,314 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-40
-2023-10-29 10:35:17,318 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-24
-2023-10-29 10:35:17,323 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-41
-2023-10-29 10:35:17,334 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-42
-2023-10-29 10:35:17,340 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-25
-2023-10-29 10:35:17,342 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-43
-2023-10-29 10:35:17,346 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-17
-2023-10-29 10:35:17,355 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-44
-2023-10-29 10:35:17,359 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-26
-2023-10-29 10:35:17,363 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-45
-2023-10-29 10:35:17,373 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-46
-2023-10-29 10:35:17,377 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-18
-2023-10-29 10:35:17,379 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-27
-2023-10-29 10:35:17,383 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-47
-2023-10-29 10:35:17,395 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-48
-2023-10-29 10:35:17,401 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-28
-2023-10-29 10:35:17,402 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-49
-2023-10-29 10:35:17,402 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
-2023-10-29 10:35:17,410 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-19
-2023-10-29 10:35:17,414 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-50
-2023-10-29 10:35:17,420 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-29
-2023-10-29 10:35:17,424 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-51
-2023-10-29 10:35:17,434 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-52
-2023-10-29 10:35:17,439 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-30
-2023-10-29 10:35:17,445 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-20
-2023-10-29 10:35:17,445 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-53
-2023-10-29 10:35:17,454 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-54
-2023-10-29 10:35:17,458 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-31
-2023-10-29 10:35:17,463 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-55
-2023-10-29 10:35:17,473 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-56
-2023-10-29 10:35:17,477 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-21
-2023-10-29 10:35:17,478 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-32
-2023-10-29 10:35:17,483 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-57
-2023-10-29 10:35:17,493 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-58
-2023-10-29 10:35:17,498 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-33
-2023-10-29 10:35:17,501 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
-2023-10-29 10:35:17,502 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-59
-2023-10-29 10:35:17,510 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-22
-2023-10-29 10:35:17,514 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-60
-2023-10-29 10:35:17,518 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-34
-2023-10-29 10:35:17,523 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-61
-2023-10-29 10:35:17,533 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-62
-2023-10-29 10:35:17,538 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-35
-2023-10-29 10:35:17,543 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-23
-2023-10-29 10:35:17,543 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-63
-2023-10-29 10:35:17,552 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-64
-2023-10-29 10:35:17,558 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-36
-2023-10-29 10:35:17,564 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-65
-2023-10-29 10:35:17,573 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-66
-2023-10-29 10:35:17,576 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-24
-2023-10-29 10:35:17,579 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-37
-2023-10-29 10:35:17,583 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-67
-2023-10-29 10:35:17,594 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-68
-2023-10-29 10:35:17,598 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-38
-2023-10-29 10:35:17,602 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
-2023-10-29 10:35:17,605 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-69
-2023-10-29 10:35:17,609 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-25
-2023-10-29 10:35:17,615 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-70
-2023-10-29 10:35:17,619 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-39
-2023-10-29 10:35:17,624 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-71
-2023-10-29 10:35:17,634 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-72
-2023-10-29 10:35:17,639 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-40
-2023-10-29 10:35:17,641 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-26
-2023-10-29 10:35:17,643 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-73
-2023-10-29 10:35:17,654 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-74
-2023-10-29 10:35:17,658 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-41
-2023-10-29 10:35:17,663 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-75
-2023-10-29 10:35:17,674 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-76
-2023-10-29 10:35:17,675 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-27
-2023-10-29 10:35:17,679 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-42
-2023-10-29 10:35:17,682 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-77
-2023-10-29 10:35:17,694 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-78
-2023-10-29 10:35:17,699 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-43
-2023-10-29 10:35:17,703 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
-2023-10-29 10:35:17,704 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-79
-2023-10-29 10:35:17,707 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-28
-2023-10-29 10:35:17,714 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-80
-2023-10-29 10:35:17,719 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-44
-2023-10-29 10:35:17,723 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-81
-2023-10-29 10:35:17,733 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-82
-2023-10-29 10:35:17,741 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-45
-2023-10-29 10:35:17,741 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-29
-2023-10-29 10:35:17,742 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-83
-2023-10-29 10:35:17,753 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-84
-2023-10-29 10:35:17,759 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-46
-2023-10-29 10:35:17,763 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-85
-2023-10-29 10:35:17,773 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-86
-2023-10-29 10:35:17,774 INFO o.a.j.t.JMeterThread: Thread started: Average load 2-30
-2023-10-29 10:35:17,779 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-47
-2023-10-29 10:35:17,783 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-87
-2023-10-29 10:35:17,794 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-88
-2023-10-29 10:35:17,799 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-48
-2023-10-29 10:35:17,805 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-89
-2023-10-29 10:35:17,813 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-90
-2023-10-29 10:35:17,818 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-49
-2023-10-29 10:35:17,823 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-91
-2023-10-29 10:35:17,833 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-92
-2023-10-29 10:35:17,841 INFO o.a.j.t.JMeterThread: Thread started: Increased load 3-50
-2023-10-29 10:35:17,843 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-93
-2023-10-29 10:35:17,853 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-94
-2023-10-29 10:35:17,863 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-95
-2023-10-29 10:35:17,873 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-96
-2023-10-29 10:35:17,883 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-97
-2023-10-29 10:35:17,893 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-98
-2023-10-29 10:35:17,903 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-99
-2023-10-29 10:35:17,913 INFO o.a.j.t.JMeterThread: Thread started: Exceptional load 4-100
-2023-10-29 10:35:52,144 INFO o.a.j.g.a.Start: Stopping test
-2023-10-29 10:35:52,183 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-3
-2023-10-29 10:35:52,184 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-3 sampler: POST /api/vets
-2023-10-29 10:35:52,280 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-2
-2023-10-29 10:35:52,280 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-2 sampler: GET /api/specialties
-2023-10-29 10:35:52,281 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
-2023-10-29 10:35:52,352 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-4
-2023-10-29 10:35:52,353 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-4 sampler: DELETE /api/pets/{petId}
-2023-10-29 10:35:52,541 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-5
-2023-10-29 10:35:52,541 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
-2023-10-29 10:35:52,541 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-5 sampler: GET /api/vets
-2023-10-29 10:35:52,544 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-8
-2023-10-29 10:35:52,544 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-8 sampler: PUT /api/owners/{ownerId}
-2023-10-29 10:35:52,549 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
-2023-10-29 10:35:52,642 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-10
-2023-10-29 10:35:52,642 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-10 sampler: PUT /pettypes/{petTypeId}
-2023-10-29 10:35:52,658 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
-2023-10-29 10:35:52,658 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
-2023-10-29 10:35:52,722 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-9
-2023-10-29 10:35:52,722 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
-2023-10-29 10:35:52,722 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-9 sampler: POST /api/vets
-2023-10-29 10:35:52,824 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-6
-2023-10-29 10:35:52,824 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-6 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:52,824 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
-2023-10-29 10:35:52,938 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-7
-2023-10-29 10:35:52,939 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-7 sampler: GET /api/pets/{petId}
-2023-10-29 10:35:52,939 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
-2023-10-29 10:35:53,042 INFO o.a.j.t.JMeterThread: Stopping: reduced load 1-1
-2023-10-29 10:35:53,042 WARN o.a.j.t.JMeterThread: Interrupting: reduced load 1-1 sampler: DELETE /api/specialties/{specialtyId}
-2023-10-29 10:35:53,042 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
-2023-10-29 10:35:53,143 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
-2023-10-29 10:35:53,145 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-7
-2023-10-29 10:35:53,145 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-7 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:53,261 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-26
-2023-10-29 10:35:53,261 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-26 sampler: GET /api/owners
-2023-10-29 10:35:53,261 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-7
-2023-10-29 10:35:53,373 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-13
-2023-10-29 10:35:53,373 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-13 sampler: DELETE /api/specialties/{specialtyId}
-2023-10-29 10:35:53,373 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-26
-2023-10-29 10:35:53,411 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-11
-2023-10-29 10:35:53,411 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-11 sampler: GET /api/vets/{vetId}
-2023-10-29 10:35:53,506 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-13
-2023-10-29 10:35:53,509 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-29
-2023-10-29 10:35:53,509 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-29 sampler: GET /api/specialties/{specialtyId}
-2023-10-29 10:35:53,509 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-11
-2023-10-29 10:35:53,619 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-5
-2023-10-29 10:35:53,619 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-29
-2023-10-29 10:35:53,619 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-5 sampler: GET /api/pets/{petId}
-2023-10-29 10:35:53,696 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-20
-2023-10-29 10:35:53,697 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-27
-2023-10-29 10:35:53,697 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-27 sampler: DELETE /api/specialties/{specialtyId}
-2023-10-29 10:35:53,699 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-5
-2023-10-29 10:35:53,708 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-20
-2023-10-29 10:35:53,795 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-19
-2023-10-29 10:35:53,795 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-27
-2023-10-29 10:35:53,795 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-19 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:53,864 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-30
-2023-10-29 10:35:53,865 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-30 sampler: POST /api/owners
-2023-10-29 10:35:53,865 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-19
-2023-10-29 10:35:53,919 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-18
-2023-10-29 10:35:53,919 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-18 sampler: POST /pettypes
-2023-10-29 10:35:53,975 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-1
-2023-10-29 10:35:53,975 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-1 sampler: POST /api/owners/{ownerId}/pets
-2023-10-29 10:35:53,977 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-12
-2023-10-29 10:35:53,977 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-12 sampler: POST /api/visits
-2023-10-29 10:35:53,977 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-1
-2023-10-29 10:35:53,991 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-30
-2023-10-29 10:35:54,028 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-17
-2023-10-29 10:35:54,028 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-12
-2023-10-29 10:35:54,028 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-17 sampler: GET /api/pets/{petId}
-2023-10-29 10:35:54,069 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-18
-2023-10-29 10:35:54,134 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-21
-2023-10-29 10:35:54,135 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-21 sampler: PUT /api/vets/{vetId}
-2023-10-29 10:35:54,135 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-17
-2023-10-29 10:35:54,143 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-3
-2023-10-29 10:35:54,143 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-3 sampler: GET /pettypes
-2023-10-29 10:35:54,169 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-21
-2023-10-29 10:35:54,244 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-10
-2023-10-29 10:35:54,244 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-10 sampler: GET /api/owners/{ownerId}
-2023-10-29 10:35:54,245 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-3
-2023-10-29 10:35:54,344 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-6
-2023-10-29 10:35:54,344 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-6 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:54,344 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-10
-2023-10-29 10:35:54,385 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-24
-2023-10-29 10:35:54,395 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-24 sampler: GET /api/pets/{petId}
-2023-10-29 10:35:54,398 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-6
-2023-10-29 10:35:54,490 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-24
-2023-10-29 10:35:54,490 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-9
-2023-10-29 10:35:54,492 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-9 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:54,566 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-22
-2023-10-29 10:35:54,566 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-9
-2023-10-29 10:35:54,566 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-22 sampler: POST /pettypes
-2023-10-29 10:35:54,631 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-14
-2023-10-29 10:35:54,631 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-14 sampler: POST /api/owners/{ownerId}/pets
-2023-10-29 10:35:54,652 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-22
-2023-10-29 10:35:54,691 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-4
-2023-10-29 10:35:54,691 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-14
-2023-10-29 10:35:54,691 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-4 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:54,759 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-25
-2023-10-29 10:35:54,759 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-25 sampler: PUT /api/pets/{petId}
-2023-10-29 10:35:54,759 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-4
-2023-10-29 10:35:54,842 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-8
-2023-10-29 10:35:54,842 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-8 sampler: GET /api/owners/{ownerId}/pets/{petId}
-2023-10-29 10:35:54,842 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-25
-2023-10-29 10:35:54,908 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-16
-2023-10-29 10:35:54,908 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-16 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:54,908 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-8
-2023-10-29 10:35:54,971 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-15
-2023-10-29 10:35:54,971 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-15 sampler: GET /api/pets/{petId}
-2023-10-29 10:35:54,971 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-16
-2023-10-29 10:35:55,035 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-2
-2023-10-29 10:35:55,035 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-2 sampler: GET /pettypes
-2023-10-29 10:35:55,035 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-15
-2023-10-29 10:35:55,107 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-28
-2023-10-29 10:35:55,107 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-28 sampler: PUT /api/vets/{vetId}
-2023-10-29 10:35:55,107 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-2
-2023-10-29 10:35:55,138 INFO o.a.j.t.JMeterThread: Stopping: Average load 2-23
-2023-10-29 10:35:55,138 WARN o.a.j.t.JMeterThread: Interrupting: Average load 2-23 sampler: POST /pettypes
-2023-10-29 10:35:55,165 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-28
-2023-10-29 10:35:55,223 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-10
-2023-10-29 10:35:55,223 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-10 sampler: POST /api/visits
-2023-10-29 10:35:55,223 INFO o.a.j.t.JMeterThread: Thread finished: Average load 2-23
-2023-10-29 10:35:55,292 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-42
-2023-10-29 10:35:55,293 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-42 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:55,293 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-10
-2023-10-29 10:35:55,363 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-38
-2023-10-29 10:35:55,363 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-38 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:55,383 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-7
-2023-10-29 10:35:55,383 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-38
-2023-10-29 10:35:55,383 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-7 sampler: DELETE /api/vets/{vetId}
-2023-10-29 10:35:55,405 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-29
-2023-10-29 10:35:55,406 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-29 sampler: POST /pettypes
-2023-10-29 10:35:55,430 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-42
-2023-10-29 10:35:55,483 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-7
-2023-10-29 10:35:55,488 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-28
-2023-10-29 10:35:55,488 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-28 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:55,488 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-29
-2023-10-29 10:35:55,578 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-20
-2023-10-29 10:35:55,578 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-20 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:55,578 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-28
-2023-10-29 10:35:55,670 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-15
-2023-10-29 10:35:55,671 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-15 sampler: POST /api/visits
-2023-10-29 10:35:55,671 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-20
-2023-10-29 10:35:55,747 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-16
-2023-10-29 10:35:55,747 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-16 sampler: GET /api/pets/
-2023-10-29 10:35:55,747 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-15
-2023-10-29 10:35:55,847 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-4
-2023-10-29 10:35:55,847 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-4 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:55,847 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-16
-2023-10-29 10:35:55,894 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-4
-2023-10-29 10:35:55,894 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-25
-2023-10-29 10:35:55,894 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-25 sampler: POST /api/specialties
-2023-10-29 10:35:55,991 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-37
-2023-10-29 10:35:55,991 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-37 sampler: POST /api/visits
-2023-10-29 10:35:55,991 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-25
-2023-10-29 10:35:56,032 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-48
-2023-10-29 10:35:56,032 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-48 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:56,041 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-2
-2023-10-29 10:35:56,041 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-2 sampler: POST /api/users
-2023-10-29 10:35:56,041 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-48
-2023-10-29 10:35:56,155 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-35
-2023-10-29 10:35:56,155 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-35 sampler: GET /api/visits
-2023-10-29 10:35:56,180 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-37
-2023-10-29 10:35:56,277 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-2
-2023-10-29 10:35:56,280 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-3
-2023-10-29 10:35:56,280 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-3 sampler: GET /api/specialties/{specialtyId}
-2023-10-29 10:35:56,395 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-35
-2023-10-29 10:35:56,397 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-46
-2023-10-29 10:35:56,397 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-46 sampler: GET /api/specialties/{specialtyId}
-2023-10-29 10:35:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-3
-2023-10-29 10:35:56,516 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-36
-2023-10-29 10:35:56,517 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-36 sampler: PUT /api/specialties/{specialtyId}
-2023-10-29 10:35:56,517 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-46
-2023-10-29 10:35:56,552 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-45
-2023-10-29 10:35:56,552 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-45 sampler: GET /api/visits
-2023-10-29 10:35:56,652 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-27
-2023-10-29 10:35:56,652 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-27 sampler: DELETE /api/specialties/{specialtyId}
-2023-10-29 10:35:56,659 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-45
-2023-10-29 10:35:56,659 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-36
-2023-10-29 10:35:56,731 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-12
-2023-10-29 10:35:56,731 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-12 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:56,731 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-27
-2023-10-29 10:35:56,732 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-9
-2023-10-29 10:35:56,732 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-9 sampler: PUT /api/specialties/{specialtyId}
-2023-10-29 10:35:56,801 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-43
-2023-10-29 10:35:56,801 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-43 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:56,803 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-12
-2023-10-29 10:35:56,875 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-9
-2023-10-29 10:35:56,878 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-39
-2023-10-29 10:35:56,878 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-39 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:56,878 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-43
-2023-10-29 10:35:56,975 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-30
-2023-10-29 10:35:56,975 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-30 sampler: GET /api/pets/
-2023-10-29 10:35:56,975 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-39
-2023-10-29 10:35:57,027 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-8
-2023-10-29 10:35:57,027 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-8 sampler: GET /api/visits
-2023-10-29 10:35:57,105 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-30
-2023-10-29 10:35:57,107 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-24
-2023-10-29 10:35:57,108 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-24 sampler: POST /api/pets
-2023-10-29 10:35:57,108 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-8
-2023-10-29 10:35:57,162 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-26
-2023-10-29 10:35:57,162 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-26 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:57,191 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-24
-2023-10-29 10:35:57,204 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-17
-2023-10-29 10:35:57,204 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-17 sampler: POST /api/visits
-2023-10-29 10:35:57,205 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-26
-2023-10-29 10:35:57,277 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-21
-2023-10-29 10:35:57,277 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-21 sampler: DELETE /api/vets/{vetId}
-2023-10-29 10:35:57,277 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-17
-2023-10-29 10:35:57,413 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-40
-2023-10-29 10:35:57,413 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-40 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:57,413 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-21
-2023-10-29 10:35:57,416 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-31
-2023-10-29 10:35:57,416 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-31 sampler: PUT /api/specialties/{specialtyId}
-2023-10-29 10:35:57,416 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-33
-2023-10-29 10:35:57,416 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-33 sampler: GET /api/vets
-2023-10-29 10:35:57,430 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-40
-2023-10-29 10:35:57,431 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-31
-2023-10-29 10:35:57,479 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-49
-2023-10-29 10:35:57,479 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-49 sampler: PUT /api/pets/{petId}
-2023-10-29 10:35:57,479 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-33
-2023-10-29 10:35:57,526 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-18
-2023-10-29 10:35:57,527 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-18 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:57,527 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-49
-2023-10-29 10:35:57,628 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-22
-2023-10-29 10:35:57,628 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-22 sampler: PUT /pettypes/{petTypeId}
-2023-10-29 10:35:57,628 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-18
-2023-10-29 10:35:57,680 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-44
-2023-10-29 10:35:57,680 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-44 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:57,681 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-22
-2023-10-29 10:35:57,738 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-23
-2023-10-29 10:35:57,739 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-23 sampler: DELETE /api/visits/{visitId}
-2023-10-29 10:35:57,739 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-44
-2023-10-29 10:35:57,813 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-47
-2023-10-29 10:35:57,813 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-23
-2023-10-29 10:35:57,813 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-47 sampler: POST /api/visits
-2023-10-29 10:35:57,846 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-13
-2023-10-29 10:35:57,846 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-13 sampler: PUT /api/pets/{petId}
-2023-10-29 10:35:57,923 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-47
-2023-10-29 10:35:57,931 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-34
-2023-10-29 10:35:57,932 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-34 sampler: GET /api/specialties
-2023-10-29 10:35:57,932 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-13
-2023-10-29 10:35:57,998 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-5
-2023-10-29 10:35:57,998 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-5 sampler: PUT /api/pets/{petId}
-2023-10-29 10:35:58,064 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-34
-2023-10-29 10:35:58,073 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-14
-2023-10-29 10:35:58,074 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-14 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:58,074 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-5
-2023-10-29 10:35:58,107 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-1
-2023-10-29 10:35:58,107 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-1 sampler: DELETE /api/vets/{vetId}
-2023-10-29 10:35:58,108 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-14
-2023-10-29 10:35:58,174 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-32
-2023-10-29 10:35:58,174 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-32 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:58,188 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-6
-2023-10-29 10:35:58,188 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-6 sampler: DELETE /pettypes/{petTypeId}
-2023-10-29 10:35:58,196 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-41
-2023-10-29 10:35:58,196 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-41 sampler: GET /api/specialties/{specialtyId}
-2023-10-29 10:35:58,199 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-32
-2023-10-29 10:35:58,199 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-1
-2023-10-29 10:35:58,214 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-19
-2023-10-29 10:35:58,214 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-19 sampler: GET /pettypes/{petTypeId}
-2023-10-29 10:35:58,223 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-11
-2023-10-29 10:35:58,223 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-11 sampler: DELETE /api/visits/{visitId}
-2023-10-29 10:35:58,224 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-6
-2023-10-29 10:35:58,281 INFO o.a.j.t.JMeterThread: Stopping: Increased load 3-50
-2023-10-29 10:35:58,281 WARN o.a.j.t.JMeterThread: Interrupting: Increased load 3-50 sampler: DELETE /api/specialties/{specialtyId}
-2023-10-29 10:35:58,285 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-41
-2023-10-29 10:35:58,285 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-19
-2023-10-29 10:35:58,350 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-11
-2023-10-29 10:35:58,358 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-12
-2023-10-29 10:35:58,359 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-12 sampler: GET /api/owners/{ownerId}/pets/{petId}
-2023-10-29 10:35:58,359 INFO o.a.j.t.JMeterThread: Thread finished: Increased load 3-50
-2023-10-29 10:35:58,394 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-84
-2023-10-29 10:35:58,394 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-84 sampler: GET /api/owners/{ownerId}
-2023-10-29 10:35:58,394 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-12
-2023-10-29 10:35:58,427 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-8
-2023-10-29 10:35:58,427 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-8 sampler: GET /api/visits
-2023-10-29 10:35:58,427 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-84
-2023-10-29 10:35:58,463 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-24
-2023-10-29 10:35:58,463 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-24 sampler: POST /api/visits
-2023-10-29 10:35:58,464 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-8
-2023-10-29 10:35:58,507 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-79
-2023-10-29 10:35:58,507 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-79 sampler: PUT /api/pets/{petId}
-2023-10-29 10:35:58,507 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-24
-2023-10-29 10:35:58,544 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-44
-2023-10-29 10:35:58,544 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-44 sampler: DELETE /api/pets/{petId}
-2023-10-29 10:35:58,544 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-79
-2023-10-29 10:35:58,596 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-46
-2023-10-29 10:35:58,596 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-46 sampler: POST /pettypes
-2023-10-29 10:35:58,596 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-44
-2023-10-29 10:35:58,665 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-29
-2023-10-29 10:35:58,665 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-29 sampler: POST /api/owners/{ownerId}/pets/{petId}/visits
-2023-10-29 10:35:58,689 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-46
-2023-10-29 10:35:58,695 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-45
-2023-10-29 10:35:58,695 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-45 sampler: GET /api/specialties
-2023-10-29 10:35:58,695 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-29
-2023-10-29 10:35:58,738 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-21
-2023-10-29 10:35:58,739 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-21 sampler: GET /api/vets
-2023-10-29 10:35:58,739 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-45
-2023-10-29 10:35:58,778 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-23
-2023-10-29 10:35:58,778 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-23 sampler: POST /api/specialties
-2023-10-29 10:35:58,778 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-21
-2023-10-29 10:35:58,830 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-5
-2023-10-29 10:35:58,830 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-5 sampler: GET /api/visits
-2023-10-29 10:35:58,830 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-23
-2023-10-29 10:35:58,861 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-72
-2023-10-29 10:35:58,861 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-72 sampler: DELETE /api/visits/{visitId}
-2023-10-29 10:35:58,861 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-5
-2023-10-29 10:35:58,888 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-78
-2023-10-29 10:35:58,888 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-78 sampler: POST /api/pets
-2023-10-29 10:35:58,888 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-72
-2023-10-29 10:35:58,888 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-67
-2023-10-29 10:35:58,888 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-67 sampler: GET /api/visits/{visitId}
-2023-10-29 10:35:58,901 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-78
-2023-10-29 10:35:58,917 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-85
-2023-10-29 10:35:58,917 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-85 sampler: PUT /api/owners/{ownerId}
-2023-10-29 10:35:58,917 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-67
-2023-10-29 10:35:58,925 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-1
-2023-10-29 10:35:58,925 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-1 sampler: POST /api/specialties
-2023-10-29 10:35:58,926 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-85
-2023-10-29 10:35:58,951 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-4
-2023-10-29 10:35:58,951 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-4 sampler: GET /api/owners
-2023-10-29 10:35:58,951 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-1
-2023-10-29 10:35:58,980 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-59
-2023-10-29 10:35:58,980 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-59 sampler: PUT /api/visits/{visitId}
-2023-10-29 10:35:58,980 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-4
-2023-10-29 10:35:59,016 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-94
-2023-10-29 10:35:59,017 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-94 sampler: POST /api/users
-2023-10-29 10:35:59,017 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-59
-2023-10-29 10:35:59,036 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-83
-2023-10-29 10:35:59,036 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-83 sampler: POST /api/owners
-2023-10-29 10:35:59,036 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-94
-2023-10-29 10:35:59,070 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-28
-2023-10-29 10:35:59,070 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-28 sampler: PUT /api/owners/{ownerId}
-2023-10-29 10:35:59,070 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-83
-2023-10-29 10:35:59,099 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-82
-2023-10-29 10:35:59,099 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-82 sampler: DELETE /api/pets/{petId}
-2023-10-29 10:35:59,100 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-28
-2023-10-29 10:35:59,149 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-62
-2023-10-29 10:35:59,149 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-62 sampler: DELETE /api/owners/{ownerId}
-2023-10-29 10:35:59,149 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-82
-2023-10-29 10:35:59,178 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-52
-2023-10-29 10:35:59,178 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-62
-2023-10-29 10:35:59,178 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-52 sampler: GET /api/owners/{ownerId}
-2023-10-29 10:35:59,194 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-61
-2023-10-29 10:35:59,194 WARN o.a.j.t.JMeterThread: Interrupting: Exceptional load 4-61 sampler: PUT /pettypes/{petTypeId}
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-36
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-60
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-15
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-87
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-31
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-53
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-76
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-13
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-56
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-63
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-42
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-49
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-73
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-80
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-34
-2023-10-29 10:35:59,212 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-3
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-70
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-66
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-71
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-91
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-2
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-88
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-89
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-27
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-41
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-33
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-77
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-38
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-9
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-48
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-51
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-74
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-68
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-35
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-40
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-75
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-100
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-26
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-17
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-50
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-18
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-57
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-97
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-43
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-7
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-95
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-16
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-47
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-64
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-65
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-98
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-11
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-6
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-69
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-90
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-39
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-32
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-96
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-30
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-10
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-81
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-25
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-54
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-20
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-55
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-86
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-22
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-14
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-93
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-58
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-99
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-19
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-37
-2023-10-29 10:35:59,213 INFO o.a.j.t.JMeterThread: Stopping: Exceptional load 4-92
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-92
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-61
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-70
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-69
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-68
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-57
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-6
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-55
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-50
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-34
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-40
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-100
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-26
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-15
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-91
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-56
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-51
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-32
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-60
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-58
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-96
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-90
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-75
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-10
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-37
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-9
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-33
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-7
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-88
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-71
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-63
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-30
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-13
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-89
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-95
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-64
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-47
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-3
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-39
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-27
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-49
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-54
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-41
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-52
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-42
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-22
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-2
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-76
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-48
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-99
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-93
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-38
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-81
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-66
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-25
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-35
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-53
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-65
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-36
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-73
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-43
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-17
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-20
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-31
-2023-10-29 10:35:59,214 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-80
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-19
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-18
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-11
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-77
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-87
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-14
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-16
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-86
-2023-10-29 10:35:59,217 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-74
-2023-10-29 10:35:59,215 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-97
-2023-10-29 10:35:59,216 INFO o.a.j.t.JMeterThread: Thread finished: Exceptional load 4-98
-2023-10-29 10:35:59,217 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2023-10-29 10:35:59,217 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-11-16 19:43:05,859 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-16 19:43:05,896 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-11-16 19:43:05,896 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-11-16 19:43:05,910 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: Version 5.6.2
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: java.version=17.0.8.1
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: os.name=Windows 11
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: os.arch=amd64
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: os.version=10.0
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-11-16 19:43:05,911 INFO o.a.j.JMeter: java.awt.headless=null
+2023-11-16 19:43:05,912 INFO o.a.j.JMeter: Max memory     =6442450944
+2023-11-16 19:43:05,912 INFO o.a.j.JMeter: Available Processors =16
+2023-11-16 19:43:05,924 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-11-16 19:43:05,924 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-11-16 19:43:05,924 INFO o.a.j.JMeter: JMeterHome=C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2
+2023-11-16 19:43:05,924 INFO o.a.j.JMeter: user.dir  =C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin
+2023-11-16 19:43:05,926 INFO o.a.j.JMeter: PWD       =C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin
+2023-11-16 19:43:10,875 INFO o.a.j.JMeter: IP: 192.168.2.16 Name: LAPTOP-Nicolas FullName: LAPTOP-Nicolas.home
+2023-11-16 19:43:10,895 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-11-16 19:43:11,241 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-11-16 19:43:50,805 INFO o.a.j.s.FileServer: Default base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\jmeter\apache-jmeter-5.6.2\bin'
+2023-11-16 19:43:50,809 INFO o.a.j.g.a.Load: Loading file: C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans\testplan.jmx
+2023-11-16 19:43:50,809 INFO o.a.j.s.FileServer: Set new base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans'
+2023-11-16 19:43:51,105 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-11-16 19:43:51,570 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-11-16 19:43:51,574 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-11-16 19:43:51,577 INFO o.a.j.s.SaveService: Loading file: C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans\testplan.jmx
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-11-16 19:43:52,459 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-11-16 19:43:53,775 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-11-16 19:43:53,776 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-11-16 19:43:53,776 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-11-16 19:43:53,776 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-11-16 19:43:54,206 INFO o.a.j.s.FileServer: Set new base='C:\Users\nicol\Documents\GitHub\spring-petclinic-rest\test-plans'
+2023-11-16 19:49:26,248 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-16 19:49:26,249 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:49:26,249 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:49:26,250 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-11-16 19:49:26,251 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-11-16 19:49:26,328 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-11-16 19:49:26,330 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
+2023-11-16 19:49:26,331 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
+2023-11-16 19:49:26,331 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-16 19:49:26,331 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-11-16 19:49:26,361 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
+2023-11-16 19:49:26,370 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-16 19:49:26,371 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-16 19:49:26,402 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-Nicolas
+2023-11-16 19:49:26,419 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-11-16 19:49:26,438 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
+2023-11-16 19:49:26,537 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
+2023-11-16 19:49:26,640 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
+2023-11-16 19:49:26,734 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-11-16 19:49:26,739 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
+2023-11-16 19:49:26,766 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-11-16 19:49:26,766 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-11-16 19:49:26,837 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
+2023-11-16 19:49:26,938 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
+2023-11-16 19:49:26,943 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-11-16 19:49:26,959 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-11-16 19:49:26,959 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-11-16 19:49:27,037 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
+2023-11-16 19:49:27,137 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
+2023-11-16 19:49:27,237 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
+2023-11-16 19:50:35,232 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-10
+2023-11-16 19:50:35,233 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
+2023-11-16 19:50:35,624 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-7
+2023-11-16 19:50:35,624 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
+2023-11-16 19:50:35,630 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-6
+2023-11-16 19:50:35,631 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
+2023-11-16 19:50:35,741 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-2
+2023-11-16 19:50:35,742 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
+2023-11-16 19:50:35,933 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-9
+2023-11-16 19:50:35,934 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
+2023-11-16 19:50:36,124 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-1
+2023-11-16 19:50:36,124 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
+2023-11-16 19:50:36,167 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-5
+2023-11-16 19:50:36,168 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
+2023-11-16 19:50:36,202 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-4
+2023-11-16 19:50:36,202 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-8
+2023-11-16 19:50:36,203 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
+2023-11-16 19:50:36,203 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
+2023-11-16 19:50:36,303 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-3
+2023-11-16 19:50:36,303 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
+2023-11-16 19:50:36,304 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-16 19:50:36,304 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-11-16 19:51:17,749 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-16 19:51:17,749 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:51:17,752 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-11-16 19:51:17,807 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
+2023-11-16 19:51:17,809 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
+2023-11-16 19:51:17,809 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-16 19:51:17,809 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-11-16 19:51:17,812 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
+2023-11-16 19:51:17,822 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-16 19:51:17,822 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-16 19:51:17,913 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
+2023-11-16 19:51:18,013 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
+2023-11-16 19:51:18,114 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
+2023-11-16 19:51:18,212 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
+2023-11-16 19:51:18,315 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
+2023-11-16 19:51:18,412 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
+2023-11-16 19:51:18,511 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
+2023-11-16 19:51:18,613 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
+2023-11-16 19:51:18,712 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
+2023-11-16 19:51:47,953 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-2
+2023-11-16 19:51:47,954 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
+2023-11-16 19:51:48,137 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-1
+2023-11-16 19:51:48,138 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
+2023-11-16 19:51:49,416 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-4
+2023-11-16 19:51:49,416 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
+2023-11-16 19:51:49,651 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-5
+2023-11-16 19:51:49,652 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
+2023-11-16 19:51:49,811 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-3
+2023-11-16 19:51:49,811 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
+2023-11-16 19:51:50,027 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-6
+2023-11-16 19:51:50,028 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
+2023-11-16 19:51:50,225 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-10
+2023-11-16 19:51:50,225 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
+2023-11-16 19:51:50,757 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-7
+2023-11-16 19:51:50,757 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
+2023-11-16 19:51:50,809 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-8
+2023-11-16 19:51:50,809 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
+2023-11-16 19:51:50,863 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-9
+2023-11-16 19:51:50,863 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
+2023-11-16 19:51:50,864 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-16 19:51:50,864 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-11-16 19:53:24,180 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-16 19:53:24,180 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:53:24,182 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-11-16 19:53:24,240 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
+2023-11-16 19:53:24,241 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
+2023-11-16 19:53:24,241 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-16 19:53:24,241 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-11-16 19:53:24,244 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
+2023-11-16 19:53:24,250 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-16 19:53:24,251 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-16 19:53:24,345 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
+2023-11-16 19:53:24,445 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
+2023-11-16 19:53:24,546 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
+2023-11-16 19:53:24,644 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
+2023-11-16 19:53:24,744 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
+2023-11-16 19:53:24,844 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
+2023-11-16 19:53:24,947 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
+2023-11-16 19:53:25,044 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
+2023-11-16 19:53:25,144 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
+2023-11-16 19:53:57,397 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-1
+2023-11-16 19:53:57,397 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
+2023-11-16 19:53:57,935 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-2
+2023-11-16 19:53:57,935 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
+2023-11-16 19:53:58,147 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-3
+2023-11-16 19:53:58,147 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
+2023-11-16 19:54:00,101 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-5
+2023-11-16 19:54:00,101 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
+2023-11-16 19:54:00,477 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-7
+2023-11-16 19:54:00,477 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
+2023-11-16 19:54:00,721 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-4
+2023-11-16 19:54:00,722 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
+2023-11-16 19:54:00,997 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-8
+2023-11-16 19:54:00,997 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
+2023-11-16 19:54:01,083 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-6
+2023-11-16 19:54:01,083 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
+2023-11-16 19:54:01,083 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-10
+2023-11-16 19:54:01,083 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
+2023-11-16 19:54:01,140 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-9
+2023-11-16 19:54:01,141 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
+2023-11-16 19:54:01,141 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-16 19:54:01,141 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-11-16 19:54:11,224 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-16 19:54:11,224 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:54:11,225 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-11-16 19:54:11,287 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
+2023-11-16 19:54:11,288 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
+2023-11-16 19:54:11,288 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-16 19:54:11,288 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-11-16 19:54:11,291 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
+2023-11-16 19:54:11,296 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-16 19:54:11,296 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-16 19:54:11,346 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-1
+2023-11-16 19:54:11,346 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
+2023-11-16 19:54:11,391 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
+2023-11-16 19:54:11,443 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-2
+2023-11-16 19:54:11,443 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
+2023-11-16 19:54:11,493 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
+2023-11-16 19:54:11,514 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-3
+2023-11-16 19:54:11,514 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
+2023-11-16 19:54:11,590 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
+2023-11-16 19:54:11,611 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-4
+2023-11-16 19:54:11,611 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
+2023-11-16 19:54:11,691 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
+2023-11-16 19:54:11,724 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-5
+2023-11-16 19:54:11,724 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
+2023-11-16 19:54:11,791 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
+2023-11-16 19:54:11,811 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-6
+2023-11-16 19:54:11,812 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
+2023-11-16 19:54:11,894 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
+2023-11-16 19:54:11,915 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-7
+2023-11-16 19:54:11,915 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
+2023-11-16 19:54:11,991 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
+2023-11-16 19:54:12,019 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-8
+2023-11-16 19:54:12,019 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
+2023-11-16 19:54:12,092 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
+2023-11-16 19:54:12,112 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-9
+2023-11-16 19:54:12,112 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
+2023-11-16 19:54:12,192 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
+2023-11-16 19:54:12,210 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-10
+2023-11-16 19:54:12,210 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
+2023-11-16 19:54:12,210 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-16 19:54:12,210 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-11-16 19:55:17,534 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-16 19:55:17,534 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-16 19:55:17,536 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-11-16 19:55:17,590 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : reduced load
+2023-11-16 19:55:17,590 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group reduced load.
+2023-11-16 19:55:17,590 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-16 19:55:17,590 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-11-16 19:55:17,592 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-1
+2023-11-16 19:55:17,595 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-16 19:55:17,596 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-16 19:55:17,619 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-1
+2023-11-16 19:55:17,620 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-1
+2023-11-16 19:55:17,693 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-2
+2023-11-16 19:55:17,709 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-2
+2023-11-16 19:55:17,709 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-2
+2023-11-16 19:55:17,793 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-3
+2023-11-16 19:55:17,811 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-3
+2023-11-16 19:55:17,812 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-3
+2023-11-16 19:55:17,893 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-4
+2023-11-16 19:55:17,913 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-4
+2023-11-16 19:55:17,914 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-4
+2023-11-16 19:55:17,993 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-5
+2023-11-16 19:55:18,010 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-5
+2023-11-16 19:55:18,011 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-5
+2023-11-16 19:55:18,092 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-6
+2023-11-16 19:55:18,108 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-6
+2023-11-16 19:55:18,108 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-6
+2023-11-16 19:55:18,193 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-7
+2023-11-16 19:55:18,218 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-7
+2023-11-16 19:55:18,219 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-7
+2023-11-16 19:55:18,293 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-8
+2023-11-16 19:55:18,311 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-8
+2023-11-16 19:55:18,312 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-8
+2023-11-16 19:55:18,394 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-9
+2023-11-16 19:55:18,408 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-9
+2023-11-16 19:55:18,408 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-9
+2023-11-16 19:55:18,492 INFO o.a.j.t.JMeterThread: Thread started: reduced load 1-10
+2023-11-16 19:55:18,507 INFO o.a.j.t.JMeterThread: Thread is done: reduced load 1-10
+2023-11-16 19:55:18,507 INFO o.a.j.t.JMeterThread: Thread finished: reduced load 1-10
+2023-11-16 19:55:18,508 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-16 19:55:18,508 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
